@@ -29,14 +29,22 @@ public class Main {
         return s;
     }
 
-    private static int printAFigure(int s) {
-        for (int i = 1; i <= s; i++) {
-            for (int j = 1; j <= s; j++) {
-                if (j < i) {
+    private static int printAFigure(int s)
+    {
+        for (int i = 1; i <= s; i++)
+        {
+            for (int j = 1; j <= s; j++)
+            {
+                if (j < i)
+                {
                     System.out.print(" ");
-                } else if (j > i & j != s & i != 1) {
+                }
+                else if (j > i & j != s & i != 1)
+                {
                     System.out.print("$");
-                } else {
+                }
+                else
+                {
                     System.out.print("*");
                 }
             }
